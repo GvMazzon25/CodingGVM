@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#square{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70%;
+    height: 90%;
+    border-radius: 2% 2% 2% 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    height: 20%;
+    position: relative;
+}
+
+header div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#logo{
+    width: 15vw;
+    height: 13vh;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position:absolute;
+    top: 35%;   
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#title{
+    position: absolute;
+    top: 30px;
+}
+
+h1{
+    font-size: 40px;
+    color: lime;
+    text-align: center;
+}
+
+nav{
+    position: relative;
+    top: 9vh;
+    height: 5%;
+    background-color: lime;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+nav div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+main{
+    height: 65%;
+    position: relative;
+    top: 10vh;
+}
+
+main > div{
+    margin-left: 5%;
+    margin-top: 3%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.paragrafo{
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+span{
+    font-size: 18px;
+}
+
+.level{
+    height: 4vh;
+    position: relative;
+    top: -5%;
+    left: 0;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#orange{
+    background-color: orange;
+    width: 20vw;
+}
+
+#lime{
+    background-color: lime;
+    width: 40vw;
+}
+
+#red{
+    background-color: red;
+    width: 10vw;
+}
+
+
+
+
+
+
+
+
